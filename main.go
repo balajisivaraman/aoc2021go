@@ -37,4 +37,9 @@ func main() {
 		result = solutions.Day01Part2(input)
 		fmt.Println("Day01, Part2 : ", result)
 	}
+	if day == "day02" {
+		input := readLinesAsStrings("input/day02.txt")
+		result = solutions.Day02Part1(input)
+		fmt.Println("Day02, Part1 : ", result)
+	}
 }
